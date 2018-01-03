@@ -9,7 +9,7 @@ const int clockPin = 2;
 const int latchPin  = 3;
 //六個按鈕
 const char Button[6]={5,6,7,8,9,10};
-
+//MP3模組的rx,tx腳
 const char rxpin = 12;
 const char txpin = 11;
 SoftwareSerial mySerial(rxpin, txpin); // RX, TX
